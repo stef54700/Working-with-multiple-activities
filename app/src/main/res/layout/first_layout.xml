@@ -19,9 +19,20 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Show Greetings"
+        android:text="Open Second Activity"
         android:layout_below="@+id/greetings_text_view"
         android:onClick="showGreetings"
+        android:id="@+id/button"
         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Third Activity"
+        android:onClick="showGreetings"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
 
 </RelativeLayout>
